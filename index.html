@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Rahmat Ikhsan - 24312213</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* --- HEADER ORANGE (TERPISAH) --- */
+        header {
+            /* Warna Orange Cerah */
+            background: linear-gradient(135deg, #ff9800 0%, #f44336 100%); 
+            color: white;
+            padding: 25px 0;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            width: 100%;
+        }
+
+        header strong {
+            letter-spacing: 2px;
+            font-size: 18px;
+        }
+
+        /* --- CONTAINER UTAMA --- */
+        .main-content {
+            flex: 1; /* Membuat konten mengisi ruang di antara header & footer */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 500px;
+        }
+
+        /* Garis Pembatas Modern */
+        hr.separator {
+            border: 0;
+            height: 1px;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+            margin: 25px 0;
+        }
+
+        /* --- KARTU PROFIL UTAMA (TETAP PUTIH) --- */
+        .card {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            padding: 40px 30px;
+            text-align: center;
+            margin-bottom: 20px;
+            border: 1px solid rgba(0,0,0,0.02);
+        }
+
+        .profile-pic {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #ffffff;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            margin-bottom: 20px;
+        }
+
+        .name {
+            font-size: 26px;
+            font-weight: 800;
+            color: #2d3436;
+            margin: 0;
+        }
+
+        .sub-title {
+            color: #ff9800; /* Warna Orange untuk sub-title */
+            font-size: 14px;
+            font-weight: 600;
+            margin-top: 5px;
+            margin-bottom: 30px;
+        }
+
+        /* --- TABEL DATA DIRI --- */
+        .info-table {
+            width: 100%;
+            text-align: left;
+            border-collapse: collapse;
+        }
+
+        .info-table td {
+            padding: 10px 0;
+            font-size: 14px;
+            color: #444;
+            border-bottom: 1px solid #f8f9fa;
+        }
+
+        .label {
+            font-weight: bold;
+            width: 120px;
+            color: #2d3436;
+        }
+
+        /* --- SECTION SKILL & BAHASA --- */
+        .section-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+            overflow: hidden;
+            border: 1px solid rgba(0,0,0,0.02);
+        }
+
+        .section-header {
+            padding: 12px 20px;
+            font-weight: bold;
+            border-bottom: 1px solid #f0f0f0;
+            background-color: #fafafa;
+            font-size: 15px;
+            color: #2d3436;
+        }
+
+        .section-body {
+            padding: 20px;
+        }
+
+        .tech-icons {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .tech-icons i {
+            font-size: 35px;
+            color: #636e72;
+        }
+
+        /* Progress Bar (Ganti Biru jadi Orange) */
+        .progress-bg {
+            background: #eee;
+            height: 12px;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-top: 8px;
+            margin-bottom: 15px;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background-color: #ff9800; /* Warna Orange solid */
+            border-radius: 10px;
+        }
+
+        /* SOSMED */
+        .social-footer {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social-footer a {
+            font-size: 24px;
+            color: #b2bec3;
+            transition: 0.3s;
+        }
+
+        .social-footer a:hover { color: #ff9800; } /* Warna Orange saat hover */
+
+        /* --- FOOTER ORANGE (TERPISAH) --- */
+        footer {
+            background: #f44336; /* Warna Orange solid */
+            background: linear-gradient(135deg, #f44336 0%, #ff9800 100%);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            width: 100%;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <strong>24312112_Ramma Saputra</strong>
+    </header>
+
+    <div class="main-content">
+        <div class="container">
+            
+            <div class="card">
+                <img src="hhhhh.jpeg" alt="Ramma Saputra" class="profile-pic">
+                <h1 class="name">Ramma Saputra</h1>
+                <p class="sub-title">Mahasiswa Teknik Informatika</p>
+                
+                <table class="info-table">
+                    <tr><td class="label">NPM</td><td>: 24312112</td></tr>
+                    <tr><td class="label">TTL</td><td>: Menggala, 11-08-2006</td></tr>
+                    <tr><td class="label">Gender</td><td>: Laki-laki</td></tr>
+                    <tr><td class="label">Hobi</td><td>: Bermain Game & Coding</td></tr>
+                    <tr><td class="label">Motivasi</td><td>: Menjadi Ahli IT Profesional</td></tr>
+                </table>
+
+                <div class="social-footer">
+                    <a href="https://wa.me/6285609894127" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="mailto:ramma_sasaputra@teknokrat.ac.id"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.tiktok.com/@rama saputra" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://instagram.com/rammasaputraaa" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <hr class="separator">
+
+            <div class="section-card">
+                <div class="section-header">Bahasa Pemrograman</div>
+                <div class="section-body text-center">
+                    <div class="tech-icons">
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-css3-alt"></i>
+                        <i class="fab fa-js"></i>
+                        <i class="fab fa-bootstrap"></i>
+                        <i class="fab fa-python"></i>
+                        <i class="fas fa-database"></i>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="separator">
+
+            <div class="section-card">
+                <div class="section-header">Skill & Keahlian</div>
+                <div class="section-body">
+                    <span style="font-size: 13px; font-weight: 600;">Pemecahan Masalah</span>
+                    <div class="progress-bg"><div class="progress-bar" style="width: 80%;"></div></div>
+                    
+                    <span style="font-size: 13px; font-weight: 600;">Bekerja Dalam Tim</span>
+                    <div class="progress-bg"><div class="progress-bar" style="width: 90%;"></div></div>
+                    
+                    <span style="font-size: 13px; font-weight: 600;">Manajemen Waktu</span>
+                    <div class="progress-bg"><div class="progress-bar" style="width: 85%;"></div></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 Ramma saputra | Universitas Teknokrat Indonesia
+    </footer>
+
+</body>
+</html>
